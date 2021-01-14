@@ -1,0 +1,30 @@
+    .grid{
+        display:flex;
+        flex-flow: row wrap;
+        border : 1px solid black;
+        width:300px;
+        height:300px;
+        margin-left:10px;
+    }
+
+    .grid div{
+        width:20px;
+        height:20px;
+    }
+
+    .shooter{
+        background-color:blue;
+    }
+
+    .invader{
+        background-image:url(rsz_coronavirus.jpg);
+        border-radius:50%;
+    }
+
+    .laser{
+        background-image:url('mask2.jpg');
+    }
+
+    .boom{
+        background-color:red;
+    }
